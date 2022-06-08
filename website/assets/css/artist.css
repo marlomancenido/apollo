@@ -1,0 +1,441 @@
+body{
+	overflow-x: hidden;
+}
+
+.artistCover{
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 80vh;
+}
+
+.otherInfo h1{
+	font-size: 6vh;
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+.otherInfo p{
+	font-size: 1.5vh;
+	margin-top: 0;
+	color: #b7b7b7;
+}
+
+.mainContent, .otherInfo{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50vw;
+}
+
+.artistMenu a{
+	font-size: 1.8vh;
+	margin-right: 1vw;
+}
+
+h3{
+	font-size: 2.5vh;
+	margin-top: 4vh;
+}
+
+.video{
+	width: 24vw;
+	margin-bottom: 1vh;
+	padding-bottom: 1vh;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1vw;
+}
+
+.video .thumbnail{
+	padding-top: 52.15%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.videoTitle{
+	font-size: 1.7vh;
+	font-weight: 500;
+	line-height: 1.8vh;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.videoTitle:hover{
+	text-decoration: underline;
+}
+
+.videoDuration{
+	position: relative;
+    bottom: 1vh;
+    left: 90%;
+    border-radius: 1vh;
+    background-color: #1d1d1db3;
+    font-size: 1.2vh;
+    width: 4vh;
+    text-align: center;
+}
+
+.songContainer{
+	width: 100%;
+	height: 10vh;
+	margin-bottom: 1vh;
+   	border-radius: 1vh;
+}
+
+.songContainer:hover{
+	background-color: #101010;
+}
+
+.sc_artwork{
+	height: 10vh;
+	width: 10vh;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	float: left;
+	display: inline-block;
+}
+
+.sc_details{
+	margin-left: 2vw;
+	font-size: 1.4vh;
+	font-weight: 500;
+	margin-top: 3vh;
+	display: inline-block;
+}
+
+.sc_details .title{
+	font-size: 2vh;
+}
+
+.sc_details .title:hover{
+	text-decoration: underline;
+}
+
+.sc_details .units{
+	color: grey;
+}
+
+.releaseLink{
+	display: none;
+}
+
+.albumCollection{
+	width: 100%;
+}
+
+.albumContainer{
+	display: inline-block;
+	width: 20vh;
+	margin-right: 1vw;
+	margin-bottom: 1vw;
+}
+
+.ac_artwork{
+	height: 20vh;
+	width: 20vh;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+}
+
+.ac_details .title{
+	font-size: 1.7vh;
+	font-weight: 500;
+	text-overflow: ellipsis; 
+	overflow: hidden; 
+	white-space: nowrap;
+}
+
+.ac_details .title:hover{
+	text-decoration: underline;
+}
+
+.ac_details{
+	text-align: center;
+	width: 20vh;
+}
+
+.ac_details .details{
+	font-size: 1.3vh;
+	color: #aaa;
+}
+
+.aboutArtistPhoto{
+	box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.38);
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 40vh;
+	background-position: center; 
+	background-repeat: no-repeat;
+	background-size: cover; 
+	display: flex;
+  	flex-direction: column;
+  	justify-content: space-between;
+  	border-radius: 2.5vh;
+}
+
+.rank{
+	width: 10vh;
+	height: 10vh;
+	background-color: white;
+	border-radius: 10vh;
+    position: relative;
+    left: 93%;
+    bottom: 3%;
+}
+
+.rank .number{
+	text-align: center;
+	color: black;
+	font-weight: bold;
+	font-size: 2.5vh;
+	padding-top: 2.5vh;
+}
+
+.rank .world{
+	color: black;
+	text-align: center;
+	font-weight: 500;
+	font-size: 1vh;
+}
+
+.artistBio{
+	font-size: 1.5vh;
+	width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.showHolder{
+	width: 100%;
+	height: 6vh;
+	display: inline-block;
+}
+
+.showHolder:hover{
+	background-color: #131313;
+}
+
+.calendar{
+	float: left;
+	width: 6vh;
+	height: 100%;
+	background-color: white;
+	display: inline-block;
+}
+
+.calendar .month{
+	background-color: red;
+	float: left;
+	width: 100%;
+	height: 2vh;
+	text-align: center;
+	font-size: 1.5vh;
+	line-height: 2vh;
+	font-weight: 500;
+}
+
+.calendar .day{
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: 2.5vh;
+	line-height: 4vh;
+}
+
+.showHolder .details{
+	margin-left: 2vh;
+	display: inline-block;
+	margin-top: 1.5vh;
+}
+
+.details .mainDetails{
+	font-weight: 500;
+	font-weight: 2vh;
+	font-size: 1.5vh;
+}
+
+.details .location{
+	color: #929292;
+	font-size: 1.2vh;
+}
+
+.tourHolder{
+	width: 10vw;
+	display: inline-block;
+	height: unset;
+	margin-right: 1vw;
+}
+
+.tourHolder .poster{
+	padding-top: 145%;
+	width: 100%
+}
+
+.tourHolder .title{
+	font-size: 1.8vh;
+	margin-bottom: 0;
+}
+
+.tourHolder .title:hover{
+	text-decoration: underline;
+}
+
+.tourHolder .artistName{
+	font-size: 1.2vh;
+	color: #aaa;
+	display: inline-block;
+}
+
+.videoDetails .videoStats{
+	font-size: 1.5vh;
+	color: #aaa;
+}
+
+.videoDetails{
+	margin-top: 1vh;
+}
+
+.mainDetails a:hover{
+	text-decoration: underline;
+}
+
+@media only screen and (max-width: 1100px){
+
+	.awardsContainer{
+		overflow: auto;
+    	white-space: nowrap;
+	}
+
+	.artistCover{
+		height: 40vh;
+	}
+
+	.mainContent, .otherInfo{
+		margin-left: 1vw;
+		margin-right: 1vw;
+		width: unset;
+	}
+
+	.artistMenu a{
+		font-size: 2vh;
+		margin-right: 2vw;
+	}
+
+	.sc_details{
+		width: 65vw;
+		margin-left: 2vw;
+		font-size: 1.2vh;
+		margin-top: 2vh;
+	}
+	.sc_artwork{
+		height: 7vh;
+		width: 7vh;
+		background-position: center; 
+		background-repeat: no-repeat;
+		background-size: cover; 
+		float: left;
+		display: inline-block;
+	}
+
+	.songContainer{
+		height: 7vh;
+	   	background-color: #101010;
+	}
+
+	.sc_details .title{
+		font-size: 1.5vh;
+	}
+
+	.releaseLink{
+		display: block;
+		float: right;
+		margin-right: 3vw;
+		margin-top: 2.2vh;
+		padding: 1vw;
+		border-radius: 1vw;
+		border: 1px solid white;
+		font-size: 1.5vh;
+	}
+
+	h3{
+		font-size: 2vh;
+		margin-top: 4vh;
+	}
+
+	.albumCollection{
+		overflow: auto;
+		white-space: nowrap;
+	}
+
+	.albumContainer{
+		margin-right: 2vw;
+		margin-bottom: 0;
+	}
+
+	.ac_details .title{
+		font-size: 1.5vh;
+	}
+
+	.ac_details{
+		text-align: center;
+		width: 20vh;
+	}
+
+	.video{
+		width: 100%;
+		border-bottom: 1px #5d5d5d solid;
+	}
+
+	.videoTitle{
+		font-size: 1.5vh;
+		width: calc(100% - 8vw);
+	}
+
+	.videoDuration{
+		padding: 0.5vh;
+		font-size: 1.2vh;
+		border: 2px solid white;
+		width: 6vw;
+		font-weight: 500;
+		text-align: center;
+		border-radius: 1vh;	
+		position: absolute;
+		right: 2vw;
+		bottom: unset;
+	}
+
+	.videoDetails .videoStats{
+		font-size: 1.2vh;
+	}
+
+	.videoDetails{
+		margin-top: 0;
+	}
+
+	.rank{
+	    left: 78vw;
+	    bottom: 2vh;
+	}
+
+	.awardIcon{
+		width: 6vh;
+		height: 6vh;
+		border-radius: 6vh;
+	}
+
+	.tourHolder{
+		width: 32vw;
+	}
+
+	.showHolder{
+		background-color: #131313;
+	}
+
+
+}

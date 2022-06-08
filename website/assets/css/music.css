@@ -1,0 +1,33 @@
+.bodyContainer{
+	margin-left: auto;
+	margin-right: auto;
+	width: 55vw;
+}
+
+@media only screen and (max-width: 1100px){
+	.bodyContainer{
+		margin-left: 1vw;
+		margin-right: 1vw;
+		width: unset;
+	}
+
+	.albumHolder{
+		margin-right: 2.2vw;
+	}
+
+	.ah_artwork{
+		width: 45vw;
+		height: 45vw;
+	}
+
+	.ah_details{
+		width: 45vw;
+	}
+
+	.videoGridContainer{
+		width: 100%;			
+	    overflow: auto;
+	    white-space: nowrap;
+	}
+
+}

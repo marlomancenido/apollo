@@ -1,0 +1,290 @@
+html{
+	background-color: #eb263a;
+}
+
+.mainMenu{
+	background-color: #eb263a;
+}
+
+body{
+	background-color: #f8eb20;
+}
+
+button{
+	background-color: #5d20f8;
+}
+
+.menuItem:hover{
+	color: #5d20f8;
+}
+
+.mainBodyContainer{
+	width: 55vw;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 10vh;
+}
+
+.eventLogo{
+	mix-blend-mode: screen;
+	height: 80vh;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	position: absolute;
+	width: 55vw;
+}
+
+.mainBodyContainer h1{
+    font-size: 7vh;
+    width: 20vw;
+    line-height: 7vh;
+    color: #5d20f8;
+    border-bottom: 5px solid #eb263a;
+    padding-bottom: 3vh;
+}
+
+.eventBody{
+	position: relative;
+	padding-top: 30vh;
+}
+
+.eventBody p{
+	text-align: center;
+	width: 40vw;
+	color: #eb263a;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 2vh;
+}
+
+.eventBody h2{
+	color: #5d20f8;
+	border-top: 3px solid #5d20f8; 
+	padding-top: 2vh;
+}
+
+.nominee, .winner{
+	width: 7vw;
+	margin-right: 1vw;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.icon{
+	width: 7vw;
+	height: 7vw;
+	border-radius: 7vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	box-shadow: inset 0px 0px 0px 3px #eb263a;
+}
+
+.nominee .icon{
+	filter: grayscale(1);
+}
+
+.details{
+	margin-top: 1vh;
+}
+
+.nominee .details{
+	color: #5d5d5d;
+}
+
+.winner .details{
+	color: #eb263a;
+}
+.details h1, .details h2, .details h3{
+	text-align: center;
+	color: unset;
+	border: unset;
+	width: unset;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: unset;
+	padding-top: unset;
+}
+
+.details h1{
+	font-size: 2.3vh;
+	line-height: 2.3vh;
+
+}
+.details h2{
+	font-size: 2vh;
+	font-weight: 500;
+}
+
+.details h3{
+	font-size: 1.5vh;
+	font-weight: 300;
+}
+
+.details a{
+	text-decoration: none;
+	color: unset;
+}
+
+.video_nominee, .video_winner{
+	width: 24vw;
+	margin-bottom: 1vh;
+	padding-bottom: 1vh;
+	display: inline-block;
+	vertical-align: top;
+	margin-right: 1vw;
+}
+
+.thumbnail{
+	padding-top: 52.15%;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	border-radius: 1vw;
+	box-shadow: inset 0px 0px 0px 3px #eb263a;
+}
+
+.video_nominee .thumbnail{
+	filter: grayscale(1);
+}
+
+.video_details h1, .video_details h2, .video_details h3{
+	color: unset;
+	border: unset;
+	width: unset;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: unset;
+	padding-top: unset;
+}
+
+.video_details{
+	margin-top: 1vh;
+	color: #5d5d5d;
+	text-align: center;
+}
+
+.video_winner .video_details{
+	color: #eb263a;
+}
+
+.video_details h1{
+	font-size: 2.5vh;
+}
+
+.video_details h2{
+	font-weight: 500;
+	font-size: 1.5vh;
+}
+
+.video_details a{
+	text-decoration: none;
+	color: unset;
+}
+
+.awardTitle{
+	mix-blend-mode: screen;
+	height: 10vh;	
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.videoNomContainer, .nominationContainer{
+	width: 51vw;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.categories_menu a{
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 2.5vh;
+	margin-right: 0.5vw;
+}
+
+.categories_menu a:hover{
+	color: #5d20f8;
+}
+
+.categories_menu h3{
+	color: #5d20f8;
+	margin-bottom: 0.5vh;
+}
+
+.categories_menu{
+	margin-bottom: 0.5vh;
+}
+
+@media only screen and (max-width: 1100px){
+	.mainBodyContainer{
+		width: 90vw;
+		margin-top: unset;		
+		overflow: hidden;
+	}
+
+	.eventLogo{
+		width: 90vw;
+		top: 0;
+	}
+
+	.eventBody{
+		left: 1vw;
+		padding-top: 25vh;
+	}
+
+	.eventBody h1{
+		width: 60vw		;
+		font-size: 5vh;
+		line-height: 5vh;
+	}
+
+	.eventBody p{
+		width: unset;
+		font-size: 2vh;
+	}
+
+	.categories_menu h3{
+		font-size: 1.5vh;
+	}
+
+	.nominationContainer, .videoNomContainer{
+		width: unset;
+	}
+
+	.nominee, .winner{
+		width: 28vw;
+		margin-bottom: 1.5vh;
+	}
+
+	.icon{
+		width: 28vw;
+		height: 28vw;
+		border-radius: 28vw;
+	}
+
+	.details h1{
+		font-size: 3vh;
+		width: unset;
+		line-height: 3vh;
+	}
+
+	.video_nominee, .video_winner{
+		width: 88vw;
+	}
+
+	.thumbnail{
+		border-radius: 5vw;
+	}
+
+	.video_details h1{
+		width: unset;
+		font-size: 3vh;
+		line-height: 3vh;
+	}
+
+}
